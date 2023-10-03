@@ -39,7 +39,6 @@ body{
     height: 40px;
     background-color: coral;
     border: 1px solid black;
-    
 }
 
 .debug .row.h{
@@ -47,7 +46,7 @@ body{
 }
 
 .debug #main_header{
-    height: 400px;
+    /* height: 400px;*/
     background-color: rgb(161, 140, 236);
 }
 
@@ -155,6 +154,9 @@ body{
 #main_header{
     padding-top: 5%;
     padding-bottom: 5%;
+    height: 500px;
+    background-image: url(./img/jumbo.png);
+    background-size: cover;
 }
 
 .intro{
