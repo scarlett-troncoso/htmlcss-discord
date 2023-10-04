@@ -9,14 +9,14 @@ body{
     min-width: 500px;
 }
 
-.container, .intro {
+.container {
     display: flex;
     min-width: 400px;
 }
 
 [class^="container"]{
     margin: auto 15%;
-    width: 70%;
+    width: 65%;
 }
 /* #endregion common*/
 
@@ -24,7 +24,7 @@ body{
 /* #region debug*/
 
 /*header debug*/
-.debug #menu_header {
+/*.debug #menu_header {
     background-color: rgb(162, 254, 129);
 }
 
@@ -33,10 +33,7 @@ body{
     background-color: rgb(251, 139, 157);
 }
 
-/*header main debug*/
-.debug .logo, .debug .button {     /* ripete anche nell footer*/
-    width: 20%;
-    height: 40px;
+.debug .logo, .debug .button { 
     background-color: coral;
     border: 1px solid black;
 }
@@ -45,15 +42,21 @@ body{
     background-color: rgb(99, 105, 230);
 }
 
-.debug #main_header{
-    /* height: 400px;*/
+.debug .col-5{
+    border: 1px solid rgb(42, 4, 125);
+}*/
+
+
+/*header main debug*/
+
+/*.debug #main_header{
     background-color: rgb(161, 140, 236);
 }
 
 .debug .intro{
     background-color: rgb(249, 178, 206);
     height: 95%;
-}
+}*/
 
 /*main debug*/
 .debug main>section {
@@ -109,12 +112,9 @@ body{
 
 .debug .row.f{
     background-color: rgb(176, 251, 226);
-    height: 100%;
-    width: 60%;
 }
 
 .debug .col-4{
-    width: calc((100% / 12)*4);
     border: 1px solid green;
 }
 
@@ -133,6 +133,8 @@ body{
 }
 /* #endregion body*/
 
+/* #region utility*/
+/* #endregion utility*/
 
 /* #region header*/
 
@@ -140,12 +142,53 @@ body{
     height: 70px;
     padding-top: 15px;
     padding-bottom: 15px;
+    background-color: rgb(90, 78, 227);
+}
+
+#menu_header>.container{
+    justify-content: space-between;
 }
 
 .row.h {
-    width: 70%;
-    justify-content: center;
+    width: 45%;
+    min-width: 371px;
 }
+
+.col-5 {
+    width: calc((100% / 12)*5);
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: small;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    min-width: 66px;
+}
+
+.logo.cont_butt {
+    width: 25%;
+    height: 40px;
+    Min-width: 125px;
+}
+
+.min_wth {
+    min-width: 107px; 
+}
+
+.button{
+    width: 60px;
+    min-width: 49px;
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    font-size: small;
+}
+
+.logo>img, .button{
+    height: 80%;
+}
+
 /* #endregion header*/
 
 
@@ -162,6 +205,7 @@ body{
 .intro{
     width: 55%;
     margin: auto;
+    text-align: center;
 }
 
 main>section{
@@ -182,6 +226,15 @@ footer>section{
 
 .row {
     display: flex;
+}
+
+.row.f{
+    height: 100%;
+    width: 60%;
+}
+
+.col-4 {
+    width: calc((100% / 12)*4);
 }
 
 hr{
