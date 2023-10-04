@@ -204,7 +204,7 @@ body{
     padding-bottom: 2rem;
 }
 
-.font_xl{
+.font_xl_h{
     font-size:3rem;
     font-weight: bold;
     padding-bottom: 2rem;
@@ -230,20 +230,17 @@ body{
 }
 
 main>section{
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 }
 
 .canali{
-    padding-top: 100px;
+    padding-top: 150px;
 }
 
-.can1{
-    width: 70%;
-}
-
-.can2{
-    width: 30%;
+.font_xl{
+    font-size:2.5rem;
+    font-weight: bold;
+    padding-bottom: 1.5rem;
 }
 
 .cont1{
@@ -254,6 +251,10 @@ main>section{
     margin: auto 15%;
     width: 65%;
     text-align: center;
+}
+
+.clearfix{
+    overflow: auto;
 }
 
 /* #endregion Main*/
