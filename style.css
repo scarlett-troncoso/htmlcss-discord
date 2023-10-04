@@ -7,6 +7,7 @@
 
 body{  
     min-width: 500px;
+    font-family: Arial;
 }
 
 .container {
@@ -133,9 +134,6 @@ body{
 }
 /* #endregion body*/
 
-/* #region utility*/
-/* #endregion utility*/
-
 /* #region header*/
 
 #menu_header{
@@ -157,7 +155,6 @@ body{
 .col-5 {
     width: calc((100% / 12)*5);
     color: white;
-    font-family: sans-serif;
     font-weight: bold;
     font-size: small;
     text-align: center;
@@ -195,17 +192,43 @@ body{
 /* #region Main*/
 
 #main_header{
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 6rem;
     height: 500px;
     background-image: url(./img/jumbo.png);
     background-size: cover;
 }
 
 .intro{
-    width: 55%;
+    width: 49%;
     margin: auto;
     text-align: center;
+    color: white;
+    padding-bottom: 2rem;
+}
+
+.font_xl{
+    font-size:3rem;
+    font-weight: bold;
+    padding-bottom: 2rem;
+}
+
+.font_larg{
+    font-size: larger;
+    line-height: 1.5rem;
+}
+
+.intro>button{
+    height: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 25px;
+    border: none;
+}
+
+.bg_black{
+    background-color: black;
+    color:white;
+    margin-left: 25px;
 }
 
 main>section{
@@ -243,3 +266,6 @@ hr{
     border: 1px solid green;
     margin-left: 15%;
 }
+
+/* #region utility*/
+/* #endregion utility*/
