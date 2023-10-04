@@ -60,7 +60,7 @@ body{
 }*/
 
 /*main debug*/
-.debug main>section {
+/*.debug main>section {
     height: 400px;
 }
 
@@ -69,13 +69,11 @@ body{
 }
 
 .debug .can1{
-    width: 60%;
     height: 350px;
     background-color: aquamarine;
 }
 
 .debug .can2{
-    width: 40%;
     height: 350px;
     background-color: rgb(250, 137, 233);
 }
@@ -84,7 +82,7 @@ body{
     width: 100%;
     height: 350px;
     background-color: aquamarine;
-}
+}*/
 
 /*footer debug*/
 
@@ -232,12 +230,30 @@ body{
 }
 
 main>section{
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.canali{
+    padding-top: 100px;
+}
+
+.can1{
+    width: 70%;
+}
+
+.can2{
+    width: 30%;
 }
 
 .cont1{
     flex-direction: row-reverse;
+}
+
+.tecnologia>div{
+    margin: auto 15%;
+    width: 65%;
+    text-align: center;
 }
 
 /* #endregion Main*/
