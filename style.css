@@ -197,6 +197,10 @@ body{
     background-size: cover;
 }
 
+.ult_main{
+    padding-bottom: 6rem;
+}
+
 .intro{
     width: 49%;
     margin: auto;
@@ -212,16 +216,17 @@ body{
 }
 
 .font_larg{
-    font-size: larger;
+    font-size: large;
     line-height: 1.5rem;
 }
 
-.intro>button{
+button{
     height: 3rem;
     padding-left: 2rem;
     padding-right: 2rem;
     border-radius: 25px;
     border: none;
+    background-color: white;
 }
 
 .bg_black{
@@ -246,7 +251,7 @@ main>section{
 }
 
 .can1{
-    width: 60%;
+    width: 55%;
 }
 
 .can1 img{
@@ -254,11 +259,12 @@ main>section{
  }
 
 .can2{
-    width: 40%;
+    width: 45%;
 }
 
 .can2 p, .can2 div{
     padding-left: 25%;
+    width: 100%;
 }
 
 .voice{
