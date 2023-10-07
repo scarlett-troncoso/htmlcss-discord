@@ -170,7 +170,7 @@ body{
 .logo.cont_butt {
     width: 25%;
     height: 40px;
-    Min-width: 125px;
+    min-width: 125px;
 }
 
 .min_wth {
@@ -184,6 +184,7 @@ body{
     border-radius: 20px;
     background-color: var(--white);
     font-size: small;
+    padding: 0%;
 }
 
 .logo>img, .button{
