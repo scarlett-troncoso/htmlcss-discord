@@ -330,23 +330,27 @@ footer>section{
     padding-bottom: 15%;
 }
 
-.languaje{
-    height: 18px;
-}
-
 .languaje>img{
-   height: 100%;
+   height: 15px;
 }
 
 .languaje>h5{
     font-size: smaller;
-    vertical-align: 5px;
+    vertical-align: 2px;
     color: var(--white);
     display: inline-block;
 }
 
 .languaje h5::after{
     content: '\25BE';
+}
+
+.log_soc{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    color: var(--white);
+    padding-top: 10%;
 }
 
 .col-4 {
