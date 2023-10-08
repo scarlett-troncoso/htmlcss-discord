@@ -327,6 +327,26 @@ footer>section{
 .social>h1{
     color: var(--blu-light);
     font-size:xx-large;
+    padding-bottom: 15%;
+}
+
+.languaje{
+    height: 18px;
+}
+
+.languaje>img{
+   height: 100%;
+}
+
+.languaje>h5{
+    font-size: smaller;
+    vertical-align: 5px;
+    color: var(--white);
+    display: inline-block;
+}
+
+.languaje h5::after{
+    content: '\25BE';
 }
 
 .col-4 {
