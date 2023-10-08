@@ -311,6 +311,10 @@ footer>section{
     background-color: var(--black);
 }
 
+.sec_footer{
+    padding-top: 80px;
+}
+
 .row {
     display: flex;
 }
@@ -318,6 +322,7 @@ footer>section{
 .row.f{
     height: 100%;
     width: 75%;
+    padding-bottom: 25px;
 }
 
 .social{
@@ -341,8 +346,10 @@ footer>section{
     display: inline-block;
 }
 
-.languaje h5::after{
-    content: '\25BE';
+.languaje i{
+    color: var(--white);
+    font-size: small;
+    vertical-align: 2px;
 }
 
 .log_soc{
@@ -351,6 +358,10 @@ footer>section{
     width: 50%;
     color: var(--white);
     padding-top: 10%;
+}
+
+.log_soc i{
+   font-size: medium;
 }
 
 .col-4 {
@@ -374,11 +385,24 @@ ul{
 }
 
 hr{
-    width: 70%;
-    margin-bottom: 30px;
-    border: 1px solid green;
-    margin-left: 15%;
+    width: 65%;
+    border: 1px solid var(--blu-light);
+    margin: auto;
+    
 }
+
+.sec_footer2 .container{
+    justify-content: space-between;
+}
+
+footer .button{
+    width: 80px;
+    background-color: var(--blu-light);
+    color: var(--white);
+    font-weight: bolder;
+}
+
+
 /* #endregion footer*/
 
 /* #region utility*/
