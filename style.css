@@ -185,10 +185,44 @@ body{
     background-color: var(--white);
     font-size: small;
     padding: 0%;
+    transition:step-end 0.5s ease 0s;
+    opacity: 1;
+}
+
+button:hover {
+    opacity: 0.50;
 }
 
 .logo>img, .button{
     height: 80%;
+}
+
+.logo>img{
+    animation-name: dissolvenza;
+    animation-duration: 4s;
+    animation-delay: 0.5s;
+}
+
+@keyframes dissolvenza{
+    0%{
+        opacity: 0;
+    }
+
+    25%{
+        opacity: 0.25;
+    }
+
+    50%{
+        opacity: 0.50;
+    }
+    
+    75%{
+        opacity: 0.75;
+    }
+
+    100%{
+        opacity: 1;
+    }
 }
 
 /* #endregion header*/
@@ -234,13 +268,7 @@ button{
     border-radius: 25px;
     border: none;
     background-color: white;
-    transition: all 0.5s ease 0s;
-    opacity: 1;
 }
-
-button:hover {
-    opacity: 0.50;
-  }
 
 .bg_black{
     background-color: black;
