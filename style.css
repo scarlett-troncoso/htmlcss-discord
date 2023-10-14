@@ -304,8 +304,15 @@ main>section{
 .can2{
     width: 45%;
 }
+
 .can1 img{
     width: 100%;
+    filter: blur(1px);
+    transition: all 5s ease 0;
+}
+
+.can1 img:hover{
+    filter: blur(0);
 }
 
 .can2 p, .can2 div{
