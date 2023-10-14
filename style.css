@@ -234,7 +234,13 @@ button{
     border-radius: 25px;
     border: none;
     background-color: white;
+    transition: all 0.5s ease 0s;
+    opacity: 1;
 }
+
+button:hover {
+    opacity: 0.50;
+  }
 
 .bg_black{
     background-color: black;
