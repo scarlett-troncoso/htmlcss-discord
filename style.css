@@ -413,7 +413,13 @@ li>a{
     color: var(--white);
     line-height: 2rem;
     font-size: smaller;
+    transition:step-start 1s ease 0s;
 }
+
+li>a:hover {
+    font-size: medium;
+}
+
 
 li>h4{
     color: var(--blu-light);
