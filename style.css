@@ -159,12 +159,18 @@ body{
 .col-5 {
     width: calc((100% / 12)*5);
     color:var(--white);
+    text-decoration: none;
     font-weight: bold;
     font-size: small;
     text-align: center;
     height: 40px;
     line-height: 40px;
     min-width: 66px;
+    transition:step-start 1s ease 0s;
+}
+
+.col-5:hover {
+    font-size: medium;
 }
 
 .logo.cont_butt {
@@ -174,7 +180,7 @@ body{
 }
 
 .min_wth {
-    min-width: 107px; 
+    min-width: 118px; 
 }
 
 .button{
